@@ -2,10 +2,13 @@ import * as E from './elements';
 
 export interface TypographyProps {
     variant: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p",
+    weight?: 200 | 300 | 400 | 500 | 600 | 700;
     width?: string,
     fontSize?: string,
     margin?: string,
     padding?: string,
+    fontFamily?: string,
+    afterDropdown?: boolean,
 }
 
 const typographies = {

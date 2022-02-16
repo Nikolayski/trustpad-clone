@@ -7,6 +7,7 @@ declare module "styled-components"{
             black: string,
             pinkLinear: string,
             aquaLinear: string,
+            lightPurple: string,
         },
         backgrounds:{
             hero: string,
